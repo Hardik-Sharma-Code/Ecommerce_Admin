@@ -1,0 +1,43 @@
+<!-- topnavbar -->
+<div class="topnav shadow p-1">
+    <a>Admin Dashboard</a>
+    <span class="menu" (click)="openNav(true)"><i class="bi bi-list"></i></span>
+</div>
+<!-- topnavbar -->
+<div class="sidebar shadow-sm p-2" id="sidebar" [ngStyle]="resposiveMenu">
+    <ul>
+        <li><a routerLink=""><i class="bi bi-speedometer"></i>Dashboard</a></li>
+        <li><a routerLink="category"> <i class="bi bi-cart"></i> Category <i class="bi bi-arrow-right icon"></i></a>
+            <ul class="dropdown-container">
+                <li><a routerLink="category">List</a>
+                <li><a routerLink="category/add">Create</a>
+                <li><a routerLink="category/edit">Update</a>
+            </ul>
+        </li>
+        <li><a routerLink="products"> <i class="bi bi-bag"></i> Product <i class="bi bi-arrow-right icon"></i></a>
+            <ul class="dropdown-container">
+                <li><a routerLink="products">List</a>
+                <li><a routerLink="products/add">Create</a>
+                <li><a routerLink="products/edit">Update</a>
+            </ul>
+        </li>
+        <li><a routerLink="orders"><i class="bi bi-cart"></i>Orders</a>
+            <ul class="dropdown-container">
+                <li><a routerLink="orders">List</a>
+                <li><a routerLink="orders/add">Create</a>
+                <li><a routerLink="orders/edit">Update</a>
+            </ul>
+        </li>
+        <li><a routerLink="users"><i class="bi bi-person-circle"></i>Users</a></li>
+        <li><a routerLink="users/add"><i class="bi bi-person-circle"></i>Add User</a></li>
+        <li><a href="#"><i class="bi bi-box-arrow-left"></i>Logout</a></li>
+    </ul>
+
+</div>
+
+<!-- main  content -->
+<div class="main-content" [ngStyle]="resposiveContent">
+    <router-outlet></router-outlet>
+</div>
+
+

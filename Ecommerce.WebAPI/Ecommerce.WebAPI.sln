@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.WebAPI", "Ecommerce.WebAPI.csproj", "{3995E992-D578-4C96-B689-DDC705E26B93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Services", "..\Ecommerce.Services\Ecommerce.Services.csproj", "{51604301-E26B-4C1C-BB8B-871E75E3C1E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.DATA", "..\Ecommerce.DATA\Ecommerce.DATA.csproj", "{D1A987E5-B7AF-4839-BCE2-E5CEAB7D5DD2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ecommerce.UI", "..\Ecommerce.UI\", "{EFE2CA91-74BB-49AD-9C71-5C0E4045607F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64049"
+		Debug.AspNetCompiler.PhysicalPath = "..\Ecommerce.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64049\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64049"
+		Release.AspNetCompiler.PhysicalPath = "..\Ecommerce.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64049\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64049"
+		SlnRelativePath = "..\Ecommerce.UI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3995E992-D578-4C96-B689-DDC705E26B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995E992-D578-4C96-B689-DDC705E26B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995E992-D578-4C96-B689-DDC705E26B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995E992-D578-4C96-B689-DDC705E26B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51604301-E26B-4C1C-BB8B-871E75E3C1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51604301-E26B-4C1C-BB8B-871E75E3C1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51604301-E26B-4C1C-BB8B-871E75E3C1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51604301-E26B-4C1C-BB8B-871E75E3C1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A987E5-B7AF-4839-BCE2-E5CEAB7D5DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A987E5-B7AF-4839-BCE2-E5CEAB7D5DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A987E5-B7AF-4839-BCE2-E5CEAB7D5DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A987E5-B7AF-4839-BCE2-E5CEAB7D5DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE2CA91-74BB-49AD-9C71-5C0E4045607F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE2CA91-74BB-49AD-9C71-5C0E4045607F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE2CA91-74BB-49AD-9C71-5C0E4045607F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE2CA91-74BB-49AD-9C71-5C0E4045607F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDB7ED5-3130-44AC-A9A8-79318AB3C9CA}
+	EndGlobalSection
+EndGlobal
